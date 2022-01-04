@@ -1,0 +1,10 @@
+test_login:
+  headers :
+    {"Accept": "application/json, text/plain, */*"}
+
+  api_path :
+      /dev-api/loginByPass
+
+  params :
+    mobile : '10086'
+    password : '123456'

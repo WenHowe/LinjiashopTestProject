@@ -1,0 +1,5 @@
+headers: {"Accept": "application/json, text/plain, */*"}
+
+api_path:
+  list:
+    /dev-api/category/list
